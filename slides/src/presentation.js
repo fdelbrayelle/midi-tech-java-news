@@ -181,7 +181,7 @@ export default class Presentation extends React.Component {
             <ListItem margin="60px 0 0">Compiler les classes en code natif avant de lancer la JVM</ListItem>
             <ListItem margin="30px 0 0">Commande <Code>jaotc</Code></ListItem>
             <ListItem margin="30px 0 0">Génération de fichiers librairies <Code>.so</Code></ListItem>
-            <ListItem margin="30px 0 0">En lien avec GraalVM (performance)</ListItem>
+            <ListItem margin="30px 0 0">En lien avec GraalVM (performances)</ListItem>
           </List>
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="secondary">
@@ -232,7 +232,7 @@ export default class Presentation extends React.Component {
           <List>
             <ListItem margin="60px 0 0">Méthodes statiques pour créer des collections immutables</ListItem>
             <ListItem margin="30px 0 0">Petites collections (<Code>List</Code>, <Code>Set</Code>, <Code>Map</Code>)</ListItem>
-            <ListItem margin="30px 0 0">Objectif : performance</ListItem>
+            <ListItem margin="30px 0 0">Objectif : performances</ListItem>
             <ListItem margin="30px 0 0" textColor="green" bold>Démo !</ListItem>
           </List>
         </Slide>
@@ -276,7 +276,6 @@ export default class Presentation extends React.Component {
           </Heading>
           <List>
             <ListItem margin="60px 0 0"><Code>Optional::or(Supplier)</Code></ListItem>
-            <ListItem margin="30px 0 0"><Code>Optional::ifPresent(Consumer)</Code></ListItem>
             <ListItem margin="30px 0 0"><Code>Optional::ifPresentOrElse(Consumer, Runnable)</Code></ListItem>
             <ListItem margin="30px 0 0"><Code>Optional::stream()</Code></ListItem>
             <ListItem margin="30px 0 0" textColor="green" bold>Démo !</ListItem>
@@ -414,7 +413,7 @@ export default class Presentation extends React.Component {
           <List>
             <ListItem margin="60px 0 0">Objectif : réduire la cérémonie (parfois inutile juste pour un simple test)</ListItem>
             <ListItem margin="30px 0 0">Possibilité d'utiliser <Code>java</Code> sans passer par <Code>javac</Code> (compilation en mémoire) : <Code>java MaClasse.java</Code></ListItem>
-            <ListItem margin="30px 0 0">Scripts avec le shebang : <Code>#!/usr/bin/java</Code> : <Code>./ma-classe</Code></ListItem>
+            <ListItem margin="30px 0 0">Scripts avec le shebang : <Code>#!/usr/bin/java</Code> : <Code>./ma-classe</Code> (sans extension)</ListItem>
             <ListItem margin="30px 0 0" textColor="green" bold>Démo !</ListItem>
           </List>
         </Slide>
@@ -527,12 +526,11 @@ export default class Presentation extends React.Component {
             <ListItem margin="30px 0 0"><Code>java.text.CompactNumberFormat</Code> : norme LDML avec 1000 -> 1K, etc</ListItem>
             <ListItem margin="30px 0 0">Améliorations pour l'API CompletableFuture (nouvelles méthodes)</ListItem>
             <ListItem margin="30px 0 0">Support Unicode 11.0</ListItem>
-            <ListItem margin="30px 0 0" textColor="green" bold>Démo !</ListItem>
           </List>
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="secondary">
           <Heading size={3} textColor="tertiary" caps>
-            Performance
+            Performances
           </Heading>
           <List>
             <ListItem margin="60px 0 0">Class-data sharing (CDS) par défaut</ListItem>
@@ -574,7 +572,7 @@ export default class Presentation extends React.Component {
             <ListItem margin="30px 0 0">Execution de méthodes Java sur du GPU (Stream API) : machine/deep learning</ListItem>
             <ListItem margin="30px 0 0">Incubator Modules - JEP 11</ListItem>
             <ListItem margin="30px 0 0">Preview Language and VM Features - JEP 12 : <Code>--enable-preview</Code></ListItem>
-            <ListItem margin="30px 0 0" textColor="green" bold>Prochaine LTS : Java SE 17 en septembre 2021</ListItem>
+            <ListItem margin="30px 0 0" textColor="green" bold>Prochaine LTS : Java 17 (septembre 2021)</ListItem>
           </List>
         </Slide>
         <Slide transition={['zoom']} bgColor="secondary" textColor="primary">
@@ -626,7 +624,7 @@ export default class Presentation extends React.Component {
           </Heading>
           <List>
             <ListItem margin="60px 0 0">https://openjdk.java.net</ListItem>
-            <ListItem margin="30px 0 0">https://medium.com/@javachampions (Java is Still Free)</ListItem>
+            <ListItem margin="30px 0 0">https://medium.com/@javachampions</ListItem>
             <ListItem margin="30px 0 0">https://www.loicmathieu.fr</ListItem>
             <ListItem margin="30px 0 0">https://www.baeldung.com</ListItem>
             <ListItem margin="30px 0 0">https://dzone.com</ListItem>
