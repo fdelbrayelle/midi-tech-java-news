@@ -591,7 +591,7 @@ export default class Presentation extends React.Component {
             <ListItem margin="30px 0 0">Performances largement améliorées</ListItem>
             <ListItem margin="30px 0 0">Mises à jour de sécurité</ListItem>
             <ListItem margin="30px 0 0">Nouvelles fonctionnalités (modules, <Code>jshell</Code>, <Code>var</Code>, ...)</ListItem>
-            <ListItem margin="30px 0 0">Support intégral des containers (Docker)</ListItem>
+            <ListItem margin="30px 0 0">Support intégral des containers (Docker, Openshift)</ListItem>
             <ListItem margin="30px 0 0">Vers plus de programmation fonctionnelle, réactive...</ListItem>
             <ListItem margin="30px 0 0">Arrivée de Jakarta EE, Graal(VM)...</ListItem>
           </List>
@@ -636,6 +636,9 @@ export default class Presentation extends React.Component {
         <Slide transition={['zoom']} bgColor="secondary" textColor="primary">
           <Heading size={1}>Merci !</Heading>
           <Image margin="75px 325px 0" src={images.javaDuke} width={300}></Image>
+          <Text margin="75px 0 0" textColor="primary" textSize="24">
+            https://github.com/fdelbrayelle/midi-tech-java-news
+          </Text>
         </Slide>
       </Deck>
     );
