@@ -513,7 +513,8 @@ export default class Presentation extends React.Component {
             Extended Switch Statement/Expression - JEP 325
           </Heading>
           <List>
-            <ListItem margin="60px 0 0"><Code>case</Code> à valeurs multiples : <Code>case MONDAY, FRIDAY, SUNDAY -> System.out.println(6);</Code></ListItem>
+            <ListItem margin="60px 0 0">Attention : preview feature</ListItem>
+            <ListItem margin="30px 0 0"><Code>case</Code> à valeurs multiples : <Code>case MONDAY, FRIDAY, SUNDAY -> System.out.println(6);</Code></ListItem>
             <ListItem margin="30px 0 0">Affectation du résultat du <Code>switch</Code> dans une variable (<Code>break</Code> peut retourner une valeur)</ListItem>
             <ListItem margin="30px 0 0" textColor="green" bold>Démo !</ListItem>
           </List>
