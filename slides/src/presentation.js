@@ -178,10 +178,11 @@ export default class Presentation extends React.Component {
             Compilation AOT (Ahead-of-time) - JEP 295
           </Heading>
           <List>
-            <ListItem margin="60px 0 0">Compiler les classes en code natif avant de lancer la JVM</ListItem>
-            <ListItem margin="30px 0 0">Commande <Code>jaotc</Code></ListItem>
+            <ListItem margin="60px 0 0">JIT : JVM HotSpot exécute du bytecode et compile fréquemment le code exécuté vers du code natif</ListItem>
+            <ListItem margin="30px 0 0">Compiler les classes en code natif avant de lancer la JVM</ListItem>
+            <ListItem margin="30px 0 0">Commande <Code>jaotc</Code> après <Code>java</Code></ListItem>
             <ListItem margin="30px 0 0">Génération de fichiers librairies <Code>.so</Code></ListItem>
-            <ListItem margin="30px 0 0">En lien avec GraalVM (performances)</ListItem>
+            <ListItem margin="30px 0 0">Graal(VM) (performances, notamment au démarrage)</ListItem>
           </List>
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="secondary">
@@ -360,20 +361,21 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="secondary">
           <Heading size={3} textColor="tertiary" caps>
-            Application class-data sharing - JEP 310
-          </Heading>
-          <List>
-            <ListItem margin="60px 0 0">Classes dans une archive partagée</ListItem>
-            <ListItem margin="30px 0 0">Réduire le temps de démarrage</ListItem>
-          </List>
-        </Slide>
-        <Slide transition={['fade']} bgColor="primary" textColor="secondary">
-          <Heading size={3} textColor="tertiary" caps>
             Parallel full GC for G1 - JEP 307
           </Heading>
           <List>
             <ListItem margin="60px 0 0">Auparavant Full GC mono-threadé pour nettoyer la heap</ListItem>
             <ListItem margin="30px 0 0">Nombre de threads avec <Code>-XX:ParallelGCThreads</Code></ListItem>
+          </List>
+        </Slide>
+        <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+          <Heading size={3} textColor="tertiary" caps>
+            Application class-data sharing - JEP 310
+          </Heading>
+          <List>
+            <ListItem margin="60px 0 0">CDS depuis JDK 1.5 seulement pour les classes système</ListItem>
+            <ListItem margin="30px 0 0">Classes applicatives dans une archive partagée</ListItem>
+            <ListItem margin="30px 0 0">Réduire le temps de démarrage</ListItem>
           </List>
         </Slide>
         <Slide transition={['zoom']} bgColor="secondary" textColor="primary">
@@ -591,7 +593,7 @@ export default class Presentation extends React.Component {
             <ListItem margin="30px 0 0">Nouvelles fonctionnalités (modules, <Code>jshell</Code>, <Code>var</Code>, ...)</ListItem>
             <ListItem margin="30px 0 0">Support intégral des containers (Docker)</ListItem>
             <ListItem margin="30px 0 0">Vers plus de programmation fonctionnelle, réactive...</ListItem>
-            <ListItem margin="30px 0 0">Arrivée de Jakarta EE, GraalVM...</ListItem>
+            <ListItem margin="30px 0 0">Arrivée de Jakarta EE, Graal(VM)...</ListItem>
           </List>
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="secondary">
