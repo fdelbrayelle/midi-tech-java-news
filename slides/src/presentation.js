@@ -312,6 +312,7 @@ export default class Presentation extends React.Component {
             <ListItem margin="30px 0 0">Compatible avec les différents OS supportés par Java</ListItem>
             <ListItem margin="30px 0 0">Processus de la JVM : <Code>ProcessHandle.current()</Code></ListItem>
             <ListItem margin="30px 0 0">Processus fils : <Code>Runtime.getRuntime().exec("...")</Code></ListItem>
+            <ListItem margin="30px 0 0">Pipelines : <Code>find . -name *.java -type f | wc -l</Code></ListItem>
           </List>
         </Slide>
         <Slide transition={['zoom']} bgColor="secondary" textColor="primary">
