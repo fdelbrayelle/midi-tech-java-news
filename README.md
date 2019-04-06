@@ -1,4 +1,4 @@
-# Midi technique - L'après Java 8 (les nouveautés depuis Java 9)
+# Midi technique - L'après Java 8
 
 Ce dépôt contient les [slides](https://github.com/fdelbrayelle/midi-tech-java-news/blob/master/slides) et la [démo](https://github.com/fdelbrayelle/midi-tech-java-news/blob/master/demo) du midi technique effectués lors du midi technique le mardi 9 avril 2019 chez Gfi Informatique.
 
