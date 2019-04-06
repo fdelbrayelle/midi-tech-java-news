@@ -411,7 +411,7 @@ export default class Presentation extends React.Component {
             Launch Single-File Source-Code Programs - JEP 330
           </Heading>
           <List>
-            <ListItem margin="60px 0 0">Objectif : réduire la cérémonie (parfois inutile juste pour un simple test)</ListItem>
+            <ListItem margin="60px 0 0">Objectif : réduire la "cérémonie" (parfois inutile juste pour un simple test)</ListItem>
             <ListItem margin="30px 0 0">Possibilité d'utiliser <Code>java</Code> sans passer par <Code>javac</Code> (compilation en mémoire) : <Code>java MaClasse.java</Code></ListItem>
             <ListItem margin="30px 0 0">Scripts avec le shebang : <Code>#!/usr/bin/java</Code> : <Code>./ma-classe</Code> (sans extension)</ListItem>
             <ListItem margin="30px 0 0" textColor="green" bold>Démo !</ListItem>
@@ -557,7 +557,7 @@ export default class Presentation extends React.Component {
             <ListItem margin="60px 0 0">Raw String Literals - JEP 326 : <Code>`chaîne sur plusieurs lignes`</Code></ListItem>
             <ListItem margin="30px 0 0">Pattern Matching for <Code>instanceof</Code> - JEP 305</ListItem>
             <ListItem margin="30px 0 0">Packaging Tool (<Code>jpackage</Code>) - JEP 343 : <Code>.msi</Code>, <Code>exe</Code>, <Code>deb</Code>, <Code>rpm</Code>...</ListItem>
-            <ListItem margin="30px 0 0">Collection Literals - JEP 186 : <Code>list = #[ 1, 2, 3 ];</Code></ListItem>
+            <ListItem margin="30px 0 0">Collection Literals - JEP 186 : <Code>var list = #[ 1, 2, 3 ];</Code></ListItem>
             <ListItem margin="30px 0 0">Foreign function interfaces (FFI) - JEP 191</ListItem>
             <ListItem margin="30px 0 0">Détails dans NullPointerException</ListItem>
           </List>
